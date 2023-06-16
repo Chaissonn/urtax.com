@@ -9,7 +9,7 @@ function calculate() {
   var moneyInput = document.getElementById("money-input").value;
 
   // Calculate the amounts for each category based on percentages
-  var category1Amount = moneyInput * 0.20; // 20%
+  var category1Amount = moneyInput * 0.36; // 36%
   var category2Amount = moneyInput * 0.24; // 24%
   var category3Amount = moneyInput * 0.17; // 17%
   var category4Amount = moneyInput * 0.11; // 11%
@@ -34,19 +34,29 @@ function calculate() {
 }
             </script>
         </head>
-        <div class="title">
-  <body>   
-<h1>Easy Tax Calculator For All Your Money Needs.</h1>
-   </div>
-<div>
-        <label class="med" for="money-input"></label>
-        <input class="input" placeholder="Enter Your Money Amount" type="number" id="money-input">
-        </div>
 
-<br>
-<br>
+
+
+
+
+
+  <body>   
+    <h1>Tax System</h1>
+<h5>For All Your Money Needs.</h5>
+   
+<div>
+  <br>
+  <br>
+  <br>
+
+<div class="">
+        <label class="med" for="money-input"></label>
+        <input class="input" placeholder="$$$" type="number" id="money-input">
+
         <button class="buttonGlow" onclick="calculate()">Calculate</button>
      <div class="bigGlow">
+</div>
+
 <div class="cat" id="categories">
     <div class="category">
       <span id="category1-name">RobinHood</span>:
