@@ -1,7 +1,7 @@
-# SimpleTax.Com
-A App That Helps You Manage Where Your Money Goes.
+# urtax.com
 
-*please note"
-This is my second ever coding project.. this is just a personal project, If you see this please ignore, I know its not the best.
+Hi! Please note that for now this "tool" is just for my *personal* use, with my personal categories and percentage distributions.
 
-In the future I will add customizable catagories and make it to where people can change the percentage distribuition but for now its just set to my personal catagories.
+This is my second ever coding project so it's very simple. In the future I hope to make the user able to make their own categories and decide on their own percentage, however, I'm not that advanced in coding yet. Chat GPT helped me with the java script but I did the HTML and CSS myself. I know... (not as impressive) I hope to get better at coding though because I really like it. 
+
+thank you!!
