@@ -8,19 +8,12 @@
             <script>
 function calculate() {
   var moneyInput = document.getElementById("money-input").value;
-
-
-
-  // Calculate the amounts for each category based on percentages
   var category1Amount = moneyInput * 0.36; // 36%
   var category2Amount = moneyInput * 0.24; // 24%
   var category3Amount = moneyInput * 0.17; // 17%
   var category4Amount = moneyInput * 0.11; // 11%
   var category5Amount = moneyInput * 0.04; // 4%
   var category6Amount = moneyInput * 0.08; // 8%
-  // Calculate amounts for the remaining categories
-
-  // Update the HTML with the calculated amounts
   document.getElementById("category1-name").textContent = "Brokerage 1";
   document.getElementById("category1-amount").textContent = "$" + category1Amount.toFixed(2);
   document.getElementById("category2-name").textContent = "RothIRA";
@@ -33,7 +26,6 @@ function calculate() {
   document.getElementById("category5-amount").textContent ="$" + category5Amount.toFixed(2);
   document.getElementById("category6-name").textContent = "Other";
   document.getElementById("category6-amount").textContent ="$" + category6Amount.toFixed(2);
-  // Update the HTML for the remaining categories
 }
 </script>
         </head>        
